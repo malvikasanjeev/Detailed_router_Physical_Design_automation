@@ -89,4 +89,4 @@ The table below summarizes the performance on the final, most successful configu
 * **Scalability:** The router demonstrates it can handle complex designs, scaling from the simple `c17` (22 nets) to the much larger `c6288` (1525 nets).
 * **Trade-off Management:** While the focus was on connectivity, the router still produces a solution with a quantifiable number of DRC violations. In a real-world scenario, this output would be the input for a further DRC cleanup stage.
 
-The initial models without this "forced routing" strategy often left several nets open. For example, the base model left `c432` with 7 open nets and `c6288` with 33 open nets[cite: 30]. This comparison highlights the critical success of the final RRR algorithm.
+The initial models without this "forced routing" strategy often left several nets open. For example, the base model left `c432` with 7 open nets and `c6288` with 33 open nets. This comparison highlights the critical success of the final RRR algorithm.
