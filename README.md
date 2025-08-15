@@ -85,8 +85,8 @@ The table below summarizes the performance on the final, most successful configu
 
 ### Key Takeaways:
 
-* [cite_start]**100% Connectivity Achieved:** The final model successfully routed all nets for every benchmark circuit, resulting in **zero open nets**[cite: 34]. This was the primary goal of the project.
-* [cite_start]**Scalability:** The router demonstrates it can handle complex designs, scaling from the simple `c17` (22 nets) to the much larger `c6288` (1525 nets)[cite: 34].
-* [cite_start]**Trade-off Management:** While the focus was on connectivity, the router still produces a solution with a quantifiable number of DRC violations[cite: 34]. In a real-world scenario, this output would be the input for a further DRC cleanup stage.
+* **100% Connectivity Achieved:** The final model successfully routed all nets for every benchmark circuit, resulting in **zero open nets**[cite: 34]. This was the primary goal of the project.
+* **Scalability:** The router demonstrates it can handle complex designs, scaling from the simple `c17` (22 nets) to the much larger `c6288` (1525 nets)[cite: 34].
+* **Trade-off Management:** While the focus was on connectivity, the router still produces a solution with a quantifiable number of DRC violations[cite: 34]. In a real-world scenario, this output would be the input for a further DRC cleanup stage.
 
-[cite_start]The initial models without this "forced routing" strategy often left several nets open[cite: 30]. [cite_start]For example, the base model left `c432` with 7 open nets and `c6288` with 33 open nets[cite: 30]. This comparison highlights the critical success of the final RRR algorithm.
+The initial models without this "forced routing" strategy often left several nets open[cite: 30]. [cite_start]For example, the base model left `c432` with 7 open nets and `c6288` with 33 open nets[cite: 30]. This comparison highlights the critical success of the final RRR algorithm.
