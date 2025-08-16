@@ -2,7 +2,7 @@
 
 A Python-based detailed router for VLSI physical design that guarantees **100% net connectivity** using an A* search algorithm and a Rip-up and Reroute (RRR) strategy. Developed for the EE5333: Physical Design Automation course.
 
-## 🏆 Performance & Results
+## Performance & Results
 
 The router was benchmarked against several standard circuit designs to validate its primary objective of achieving **zero open nets**.
 
@@ -20,7 +20,7 @@ The router was benchmarked against several standard circuit designs to validate 
 * **Scalability:** Proven to handle complex designs, scaling from 22 nets (`c17`) to 1525 nets (`c6288`).
 * **Trade-off Management:** While prioritizing connectivity, the router produces a solution with a quantifiable number of DRC violations, suitable for a subsequent cleanup stage.
 
-## ✨ Key Features
+##  Key Features
 
 * **A\* Search Algorithm:** Finds efficient initial paths on the routing grid while navigating obstacles.
 * **Rip-up and Reroute (RRR):** An aggressive, iterative repair mechanism that guarantees 100% connectivity by fixing open nets.
@@ -28,7 +28,7 @@ The router was benchmarked against several standard circuit designs to validate 
 * **Industry Standard I/O:** Parses LEF/DEF files for input and generates a fully routed DEF file as output.
 * **Validation Checker:** Includes a `checker.py` utility to confirm connectivity and report on DRC violations.
 
-## 🤖 How It Works
+## How It Works
 
 The router follows a systematic, multi-stage process:
 
@@ -38,7 +38,7 @@ The router follows a systematic, multi-stage process:
 
 The project source code is located in the `/src` directory, with benchmark files in `/lef`, `/def`, and `/guide`.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Language:** Python
 * **Libraries:** NumPy, Matplotlib, Rtree
